@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Esto es un ejemplo</title>
+		<script type="text/javascript" charset="utf-8" src="cordova-2.6.8.js"></script>
+		<script type="text/javascript" charset="utf-8">
+			function onLoad(){
+				document.addEventListener("deviceready", onDeviceReady, false);
+			}
+			function onDeviceReady(){
+				navigator.notification.alert(
+                     'Hola Mundo',
+                     alertDismissed,
+                     );
+			}
+            </script>
+	</head>
+	<body onload="onLoad()">
+		
+	</body>
+</html>
+
